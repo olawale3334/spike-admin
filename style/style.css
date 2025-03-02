@@ -120,14 +120,59 @@ body{
 
 }
 .row{
-    margin-left:600px;
     display: flex;
     justify-content: space-between;
+    margin-left: 300px;
+    gap:20px
 }
 .card-chart{
     background: #ffffff;
-    width: 80vw;
-    height: 50vh;
-    padding: 10px 200px;
-   
+    margin-left: 20px;
+    padding: 50px 350px;
+    height: 70vh;
+    border-radius: 30px;
+
 }
+
+/*crad-stats*/
+.card-stat,.card-stats{
+    background-color: #ffffff;
+    padding: 50px 175px;
+    height: 34vh; 
+    border-radius: 30px;  
+}
+.card-stats{
+    margin-bottom: 10px;
+}
+
+/**/
+.row-2{
+    margin-left: 300px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    gap: 20px;
+    align-items: center;
+}
+
+.schedules{
+    background: #ffffff;
+    padding: 15px 150px;
+    margin-left: 20px;
+    height: 70vh;
+    border-radius: 30px;
+
+}
+/*.clients{
+    background-color: #ffffff;
+  
+  
+    height: 70vh;
+    border-radius: 30px;
+
+}
+    */
+
+     
+      
+    
